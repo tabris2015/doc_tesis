@@ -8,5 +8,6 @@ Este repositorio se organiza de la siguiente manera:
   en markdown para su fácil visualización y edición desde un entorno remoto.
   - **img**. Contiene las imágenes, fotografías y gráficos que se usan en el documento.
   - **Perfil**. Jerarquía similar a la anterior para el Perfil de Proyecto de Grado.
+  - **Export**. Contiene archivos exportados de los documentos md, ya sea en word o en pdf.
   
   

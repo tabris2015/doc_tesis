@@ -30,7 +30,7 @@ La planta cuenta con distintos medidores ubicados en puntos estratégicos de con
 Es un sector que se encarga de tratar y purificar el agua cruda proveniente de varios pozos de reserva, el agua tratada proveniente de esta planta se utiliza en la elaboración del producto.
 
 **EMPACAR**. 
-En este sector se realiza el soplado de las preformas PET en moldes de distintos volúmenes que constituyen los envases (botellas) para el producto.
+En este sector se realiza el soplado de las pre-formas PET en moldes de distintos volúmenes que constituyen los envases (botellas) para el producto.
 
 **Elaboración.** 
 El agua tratada junto con distintos ingredientes pasa por un proceso complejo para convertirse en jarabe, la base del producto.
@@ -48,7 +48,7 @@ Cada línea cuenta con todo el proceso de envasado descrito anteriormente.
 Todos los procesos, tratamiento de aguas, soplado de botellas, elaboración y envasado requiere de servicios que soporten el funcionamiento de las maquinas, el consumo de estos servicios representa un importante porcentaje en el consumo total de la planta, se listan los servicios con los que cuenta la planta.
 
   - **Aire.** Basado en compresores de aire, se encarga de brindar aire comprimido a una presión requerida para el funcionamiento de todos los sistemas neumáticos en la planta.
-  - **Frio.** Basado en compresores de amoníaco, su tarea principal es la de enfriar el producto para su envasado.
+  - **Frío.** Basado en compresores de amoniaco, su tarea principal es la de enfriar el producto para su envasado.
   - **Vapor.** Dos calderos proveen vapor de agua a las distintas máquinas que lo requieren dentro la planta.
 
 Todas las áreas que se describen constituyen casi la totalidad del consumo de energía eléctrica en la planta así como también constituyen el proceso entero de producción de la bebida, desde el tratamiento del agua cruda hasta el envasado. Debido a la importancia de la medición del consumo de energía, se precisa contar con un sistema eficiente y confiable.
@@ -57,7 +57,7 @@ Todas las áreas que se describen constituyen casi la totalidad del consumo de e
  Se puede contextualizar el escenario en la actualidad, analizando las tendencias tecnológicas, desarrollos académicos y conceptos que soportan y dan el punto inicial al desarrollo de este proyecto, en tal caso se puede mencionar los siguientes aspectos que son parte de la situación actual:
 
 ### Eficiencia energética.
-A partir de la última década del siglo XX y gracias a la creciente preocupación por el calentamiento global y el deterioro de la naturaleza se dedicó bastante esfuerzo en investigar y aplicar conceptos de eficiencia energética dada la creciente necesidad de disminuir la emisión de CO2 a la atmósfera y aprovechar mejor los recursos naturales de los que se dispone. Esto inspiro´ muchos trabajos en los cuales se abunda en conceptos, definiciones y directrices que la humanidad tiene que seguir para consumir eficientemente la energía, [18], [17], [15] .
+A partir de la última década del siglo XX y gracias a la creciente preocupación por el calentamiento global y el deterioro de la naturaleza se dedicó bastante esfuerzo en investigar y aplicar conceptos de eficiencia energética dada la creciente necesidad de disminuir la emisión de CO2 a la atmósfera y aprovechar mejor los recursos naturales de los que se dispone. Esto inspiró muchos trabajos en los cuales se abunda en conceptos, definiciones y directrices que la humanidad tiene que seguir para consumir eficientemente la energía, [18], [17], [15] .
 
 ### Telemetría.
 Hace referencia a tecnologías que son capaces de medir magnitudes físicas para luego enviar la información a un sistema de almacenaje y visualización. Si bien este tipo de tecnología refiere principalmente a transmisión inalámbrica, también se han generalizado sus conceptos para sistemas cableados. Sus aplicaciones abarcan diversos cambios como redes de distribución, plantas químicas o estaciones espaciales. Los sistemas de telemetría han servido de base para muchos desarrollos en los cuales se necesita medir variables en espacios muy distanciados, sus principales avances refieren a protocolos de transmisión inalámbrica, tratamiento y adecuación de señales y algoritmos de redes de sensores distribuidos. [20]
@@ -83,12 +83,12 @@ Finalmente, y avanzando un paso más en la escala de automatización [10] presen
 ### Soluciones comerciales.
 Es posible encontrar en el mercado soluciones comerciales ofrecidas por distintos fabricantes, los cuales brindan opciones con una variedad de características y funcionalidades en cuanto a sistemas de monitoreo de potencia se refiere, se procede a listar algunas de estas soluciones comerciales a continuación:
 
-  - **SIEMENS** ofrece una alternativa a un sistema de monitoreo integrado con posibilidad de control automático de switches y protecciones en base a la gama de dispositivos SENTRON R . Estos dispositivos incluyen medidores, gateways y switches de potencia capaces de comunicarse mediante un protocolo ModBus c . El monitoreo se realiza en una PC conectada a una red mediante un software dedicado, vendido por SIEMENS.[16]Figura 1: Sistema de monitoreo integrado SENTRON R , fuente: [16]
+  - **SIEMENS** ofrece una alternativa a un sistema de monitoreo integrado con posibilidad de control automático de switches y protecciones en base a la gama de dispositivos SENTRON R . Estos dispositivos incluyen medidores, gateways y switches de potencia capaces de comunicarse mediante un protocolo ModBus. El monitoreo se realiza en una PC conectada a una red mediante un software dedicado, vendido por SIEMENS.[16]Figura 1: Sistema de monitoreo integrado SENTRON R , fuente: [16]
   - **Allen-Bradley** presenta diversos dispositivos [1] que pueden ser conjuncionados en un sistema integral a través de comunicaciones industriales, pero no ofrece la instancia de software limitándose solamente a vender medidores de energía con capacidades de comunicación.Figura 2: Dispositivos de medición PowerMonitor R de Allen-Bradley, fuente: [1] 
   - **Schneider Electric** posee interesantes alternativas [6] en cuestión de medición y monitoreo de consumo de electricidad, en especial se cuenta con la línea PowerLogic R . Esta línea de dispositivos incluye medidores con capacidades de comunicación serial y gateways para ethernet, de tal manera que el sistema de monitoreo se centraliza en un pequeño servidor web alojado en el mismo gateway.Figura 3: Medidor PowerLogic PM800 R de Schneider Electric, fuente: [6]
 
 
-Todas estas opciones gozan de la garantía de empresas líderes en el campo, como son SIEMENS, Allen-Bradley y Schneider Electric, garantizando su desempeño óptimo una vez instalado el sistema, la desventaja es el elevado costo de implementación de un sistema de este tipo, este podría llegar a ser privativo para la mayor´ıa de las industrias de mediano tamaño y menores, siendo accesible solamente para grandes industrias como la industria petrolera o la industria minera.
+Todas estas opciones gozan de la garantía de empresas líderes en el campo, como son SIEMENS, Allen-Bradley y Schneider Electric, garantizando su desempeño óptimo una vez instalado el sistema, la desventaja es el elevado costo de implementación de un sistema de este tipo, este podría llegar a ser privativo para la mayoría de las industrias de mediano tamaño y menores, siendo accesible solamente para grandes industrias como la industria petrolera o la industria minera.
 
 ## Planteamiento del Problema.
 Anteriormente, se pudo analizar la situación de la medición y la gestión de energía eléctrica en la planta, se mostró el procedimiento con el que, en la actualidad, se registra el consumo. Este procedimiento cuenta con las siguientes desventajas desde el punto de vista técnico y operacional:
@@ -148,6 +148,41 @@ Un mejor conocimiento de cómo se usa la energía en una instalación permite id
 ## Alcances y limitaciones.
 ### Alcances.
 El proyecto considera los siguientes alcances, en relación a los objetivos planteados:
+>alcances del formato de proyecto
+
+  - Para la definición del entorno de trabajo inicial, se considera una planta embotelladora de gaseosas de pequeña escala, tomando en cuenta que el sistema plantea un sistema de monitoreo de potencia genérico.
+  - El análisis de los aspectos inherentes al mecanismo de control actual de las plantas embotelladoras, considera que el mecanismo se pone en práctica en las distintas organizaciones de transporte, con la finalidad de garantizar un espacio de trabajo para sus socios (transportistas) y el cumplimiento de recorridos con el correspondiente personal encargado de esa labor. Este mecanismo presenta similitudes con salvedades. Por lo tanto, en el diseño solo se enfatizará en el mecanismo de control que ejerce una de estas organizaciones; donde no se pretende remplazar a los actores involucrados, más bien contribuir a la labor que realizan a través de alguna herramienta de información o complementado su trabajo con unidades de registro automático a lo largo de una determinada ruta (apartado 3.3 del Capítulo 3).
+  - La evaluación de la Ordenanza Municipal – OM con respecto a Rutas Autorizadas del Servicio Público de Transporte Colectivo de Pasajeros, se encuentra en el contexto de tomar conocimiento de las rutas, horarios, intervalos de salida y parque automotor mínimo en operación necesario para brindar el servicio (las prácticas internacionales consideran estos parámetros en la calidad). Por lo que dichos parámetros serán los considerados para el diseño del sistema (apartado 3.4. del Capítulo 3).
+  - La identificación y evaluación de los componentes tecnológicos necesarios, que permitan recoger información de campo con respecto al paso de cada unidad del transporte, se realiza con la finalidad de identificar los requerimientos para el desarrollo del sistema propuesto en todos los niveles o componentes que fueran necesarios, excepto en la parte de comunicación en los que hace al medio de transmisión. Asimismo, en la medida de lo posible se pretende la reutilización e integración de tecnologías ya implementadas  (apartados 2.2.4 y 2.4.3 del Capítulo 2 y 3.5 del Capítulo 3).
+  - Para el diseño del sistema se considera como base de desarrollo la metodología RUP, la cual permitirá seguir el desarrollo del proyecto en sus diferentes etapas con mayor claridad y bajo técnicas ya formalizadas. Asimismo considera la aplicación de conceptos de sistemas supervisorios, orientados a un desarrollo de componentes de software y hardware (apartado 2.4.3 del Capítulo 2). Consecuentemente el desarrollo del proyecto abarca hasta el nivel de diseño del sistema (Capítulos 4 y 5), dejando para una siguiente etapa la implementación, sin embargo se considera la implementación de una propuesta de prototipo que se vaya a constituir como un subconjunto del diseño propuesto.
+  - El desarrollo de un sistema de información, para la administración de la información recolectada, se basa en que se genera información por el paso por los puntos de control de las unidades de transporte público, vehículos y conductores. Este sistema básico permitiría tener datos confiables y de fácil acceso para gestionar de mejor forma los procesos administrativos de control del servicio (apartado 5.2 del Capítulo 5, y Capítulos 6 y 7).
+  - La implementación de una propuesta de prototipo, es con la finalidad de probar las características del sistema diseñado, en lo que hace a algunas de las funcionalidades del sistema como elemento de pruebas y verificación del diseño (capítulos 6 y 7).
+
+>alcances mios sin corregir
+
+  - Análisis de los requerimientos de un sistema de monitoreo de potencia para una planta embotelladora de bebidas gaseosas.
+  - Se utilizará una metodología establecida y estándar para el modelado, diseño y ejecución del sistema.
+  - El tipo de energía a cuantificar incluirá potencia real, potencia activa y potencia reactiva, según corresponda.
+  - Estudio y diseño de un sistema integral y completamente funcional en su fase de prototipo.
+  - La recolección de datos e información del consumo en la planta.
+
 
 ### Limitaciones
 En cuanto a las limitaciones que se observan en la realización del proyecto, se pueden apreciar las siguientes:
+
+>limitaciones del formato de proyecto
+
+  - Este trabajo solo se centra en la aplicación de capacidades de ingeniería para el desarrollo de un sistema de supervisión, orientado a un problema cotidiano como el abordado, en consecuencia la mejora del servicio del transporte, es en el entendido que esto ocurriría en una etapa posterior a la implementación del diseño de este trabajo, para que a través del mismo se promueva o genera una conducta de cumplimiento de recorridos.
+  - El acceso a la información necesaria para cumplir algunos objetivos de este trabajo, es una condicionante, ya que las instituciones que manejan información del autotransporte son burocráticas, y limitan el acceso a la información, por lo que sólo se considera información de fuentes secundarias.
+  - En cuanto a las consideraciones de conceptos de Sistemas Supervisiorios, los elementos a ser considerados, serán en su diseño a medida, dejando de lado aquellos desarrollos comerciales que pudieran tener distintos propósitos, esto debido al alto costo que implicaría adquirir alguno de esos sistemas.
+  - La etapa de comunicación para el Sistema involucra un abanico de muchas alternativas. No es la finalidad de esta propuesta evaluar cuál será la mejor, solo se consideraran aquellas con las que se pueda contar como las provistas por los servicios de telefonía móvil.
+  - Según las particularidades de la propuesta de proyecto no se realizará ninguna evaluación de costos, por tratarse de un caso de factibilidad técnica.
+
+  - Uso de estándares de modelado y diseño de sistemas informáticos tales como UML y RUP.
+  - El desarrollo del sistema de información se basará en aplicaciones y librerías *open source* limitando su desarrollo como una propuesta académica implementada en un prototipo funcional.
+  - El sistema de medición remota estará basado en medidores de energía con capacidades de comunicación a través de protocolos industriales por un medio físico (cable). No se contempla la comunicación inalámbrica. 
+  - Las herramientas de gestión se implementarán de acuerdo a los  requerimientos incluyendo funciones básicas y no especializadas.
+  - Las implementación y pruebas del prototipo se realizarán exclusivamente en la planta Soft Drinks El Alto de la cervecería Boliviana Nacional.
+  - Este proyecto no contemplará necesariamente aspectos económicos debido a que se utilizarán recursos y equipos existentes en la planta SD EA, se analizarán solamente cuando sea necesario.
+
+

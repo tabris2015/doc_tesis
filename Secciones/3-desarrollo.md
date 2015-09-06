@@ -81,10 +81,25 @@ En una etapa prelimminar para la definición de los alcances, con respecto a la 
 ###Atributos de requerimientos
 >Se describen los requerimientos segun su categoría y niveles de aplicación en el proyecto, sistematizando la forma en que se abordarán en grupos funcionales.
 
+|Grupo Funcional | Tipo Funcional | Requerimiento |
+|---|---|---|
+|Adquisición de Datos|
+
+
+Se han organizado los requerimientos considerando las necesidades de los usuarios finales (responsables de mantenimiento y técnicos), así como también los requerimientos necesarios para sistemas de supervisión. Ambos aspectos, se ordenan en distintos Grupos Funcionales (tabla) según las características y afinidad entre ellos.
+
+#### Matriz de Atributos Funcionales
+Una vez elaborada la lista de requerimientos, ordenadas bajo una lógica de Grupos Funcionales se formalizan mediante la metodología RUP y el lenguaje de modelado UML, a detallar en los atributos de cada requerimiento.
   - Matriz de atributos funcionales
   
 ###Especificación de Requerimientos
 >A partir del análisis de las matrices anteriores se generan *casos de uso*
+
+Uno de los primeros resultados obtenidos es el que refiere a la Especificación de Requerimientos del sistema. En tal caso se siguió la metodología adoptada para el desarrollo del proyecto, para definor los componentes y los Casos de Uso a partir de la Matriz de requerimientos anteriormente definida.
+
+### Modelo de Casos de Uso
+Los Casos de Uso fueron organizados en varios paquetes, considerando los Requerimientos Funcionales y otros para la especificación.
+
 
   - Modelos de casos de uso
   - Documentación de los casos de uso

@@ -83,7 +83,15 @@ En una etapa prelimminar para la definición de los alcances, con respecto a la 
 
 |Grupo Funcional | Tipo Funcional | Requerimiento |
 |---|---|---|
-|Adquisición de Datos|
+|**Sensado y Adquisición de Datos**|Procesamiento| 1. Pro
+|**Procesamiento de Datos**|Clasificación|
+|                           |Cálculos|
+|**Almacenamiento de Datos**|dat0s
+|**Interfaz Hombre-Máquina**|
+|**Comunicaciones**|
+|**Administración del sistema de monitoreo**|
+|**Seguridad**|
+
 
 
 Se han organizado los requerimientos considerando las necesidades de los usuarios finales (responsables de mantenimiento y técnicos), así como también los requerimientos necesarios para sistemas de supervisión. Ambos aspectos, se ordenan en distintos Grupos Funcionales (tabla) según las características y afinidad entre ellos.
@@ -107,8 +115,17 @@ Los Casos de Uso fueron organizados en varios paquetes, considerando los Requeri
 ##ARQUITECTURA DEL SISTEMA
 >Representación general en diagramas de bloques por capas del proyecto
 
+Como resultado de las consideraciones realizadas para el análisis de requerimientos (Cap. 4), se disponía de la documentación suficiente de especificaciones. Para abordar la Arquitectura, en este capítulo se presentan los componentes de la arquitectura del sistema que fuera considerada, estos componentes se organizan sobre diferentes niveles de abstracción. Finalmente se presenta el diseño de los componentes lógicos de las diferentes aplicaciones de usuario ofrecidas por el Sistema de Monitoreo.
+
+Así mismo, También se presenta la arquitectura a nivel de Hardware para aquellos elementos que permitirían el registro de las mediciones de consumo de potencia en la planta.
+
+
 ###Arquitectura general
 >Se describe las capas componentes del sistema y su interacción, conformando la arquitectura general.
+
+Se señala los elementos que dan soporte a la Arquitectura del sistema, para luego describir la estructura básica sobre la cual se construyó la funcionalidad planteada.
+
+La siguiente ilustración, muestra la arquitectura lógica general propuesta para el Sistema de Monitoreo, el cual se estratifica en base a los tipos de servicios ofrecidos por el sistema, destacando la relación entre los elementos y las capas de los mismos.
 
 ###Componentes de la red de medidores: Hardware
 >La parte de hardware del sistema, la red de medidores de potencia, estará descrita en este acápite de manera detallada considerando principalmente:
